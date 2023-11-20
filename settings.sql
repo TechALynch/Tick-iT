@@ -1,0 +1,4 @@
+-- settings.sql
+CREATE DATABASE Tick_iT;
+CREATE USER Tick_iT_user WITH PASSWORD 'Tick_iT';
+GRANT ALL PRIVILEGES ON DATABASE Tick_iT TO Tick_iT_user;
